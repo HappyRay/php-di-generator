@@ -31,13 +31,13 @@ def main():
     dependent_list_string = sys.argv[1]
     statement = Generator.generate_statements(dependent_list_string)
     copy(statement)
-    print statement
+    print(statement)
 
 def print_help():
     """
     Prints the help string for this script
     """
-    print "Run this script/executable with the following parameter <dependent class list string>."
+    print("Run this script/executable with the following parameter <dependent class list string>.")
 
 main()
 
