@@ -1,5 +1,5 @@
 import unittest
-from generator import Generator
+from generator.generator import Generator
 
 
 class TestGenerator(unittest.TestCase):

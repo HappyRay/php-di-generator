@@ -16,7 +16,7 @@ Print out the code to the console.
 
 """
 import sys
-from generator import Generator
+from generator.generator import Generator
 from pyperclip.pyperclip import copy
 
 def main():

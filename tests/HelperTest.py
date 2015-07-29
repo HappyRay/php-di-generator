@@ -1,5 +1,5 @@
 import unittest
-from helper import Helper
+from generator.helper import Helper
 
 
 class TestHelper(unittest.TestCase):

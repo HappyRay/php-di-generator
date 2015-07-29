@@ -1,5 +1,5 @@
 import unittest
-from renderer import Renderer
+from generator.renderer import Renderer
 
 
 class TestRenderer(unittest.TestCase):
