@@ -16,7 +16,7 @@ Print out the code to the console.
 
 """
 import sys
-from generator import Generator
+from .generator import Generator
 
 def main():
     """

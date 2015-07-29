@@ -2,8 +2,8 @@
 Main class for doing the work.
 """
 
-from helper import Helper
-from renderer import Renderer
+from .helper import Helper
+from .renderer import Renderer
 
 
 class Generator(object):

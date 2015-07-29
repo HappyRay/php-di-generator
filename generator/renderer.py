@@ -1,7 +1,7 @@
 """
 Generate PHP code
 """
-from helper import Helper
+from .helper import Helper
 
 
 class Renderer(object):
