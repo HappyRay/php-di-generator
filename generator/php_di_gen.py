@@ -22,6 +22,8 @@ def main():
     """
     Parse arguments from command line
     """
+    print("Version 1.0")
+
     argv = sys.argv
     length = len(argv)
     if length != 2:
