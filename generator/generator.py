@@ -33,5 +33,5 @@ class Generator(object):
             from pyperclip.pyperclip import copy
 
             copy(result)
-        except ImportError:
+        except ImportError, Exception:
             pass
