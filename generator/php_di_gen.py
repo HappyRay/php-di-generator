@@ -16,7 +16,7 @@ Print out the code to the console.
 
 """
 import sys
-from generator.generator import Generator
+from generator import Generator
 from pyperclip.pyperclip import copy
 
 def main():
@@ -37,7 +37,7 @@ def print_help():
     """
     Prints the help string for this script
     """
-    print "php-di-gen.py <dependent class list string>"
+    print "Run this script/executable with the following parameter <dependent class list string>."
 
 main()
 
