@@ -17,7 +17,6 @@ Print out the code to the console.
 """
 import sys
 from generator import Generator
-from pyperclip.pyperclip import copy
 
 def main():
     """
@@ -30,7 +29,6 @@ def main():
         exit()
     dependent_list_string = sys.argv[1]
     statement = Generator.generate_statements(dependent_list_string)
-    copy(statement)
     print(statement)
 
 def print_help():

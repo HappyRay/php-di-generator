@@ -4,6 +4,7 @@ Main class for doing the work.
 
 from helper import Helper
 from renderer import Renderer
+from pyperclip.pyperclip import copy
 
 class Generator(object):
     
@@ -17,6 +18,7 @@ class Generator(object):
         member_def_statement = Renderer.gen_all_members(class_def_list)
         constructor_statement = Renderer.gen_constructor_statement(class_def_list)
         result = member_def_statement + constructor_statement
-        
+        copy(result)
+
         return result
         
