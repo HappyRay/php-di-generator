@@ -1,7 +1,12 @@
 # php-di-generator
+
 Generate PHP code to inject dependent classes via the constructor.
 
 # Usage guide
+
+Download the executable from the release page.
+
+Currently, the executable only runs on 64bit operating systems.
 
 Add to a PHP class PHPDoc block something like the following:
 
@@ -29,16 +34,22 @@ The tool will generate the following for the above example.
         $this->anotherClass = $anotherClass;
     }
 
+Example:
+
+    php_di_gen.exe ' * @var Foo |  Bar '
+
+
 # Integration with Intellij
+
 Create an external tool
 
 Set program to
 
-    python
+    <path to php_di_gen.exe>
 
 Set parameters to
 
-    php-di-gen.py "$SelectedText$"
+    "$SelectedText$"
 
 Highlight the PHPDoc annotation line and invoke this external tool.
 
