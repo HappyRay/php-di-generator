@@ -20,7 +20,7 @@ class TestHelper(unittest.TestCase):
         data = 'FooClass'
         var_name = Helper.get_var_name(data)
         expected = 'fooClass'
-        self.assertEquals(expected, var_name)
+        self.assertEqual(expected, var_name)
 
 
 if __name__ == '__main__':
