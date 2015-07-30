@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HappyRay/php-di-generator.svg?branch=master)](https://travis-ci.org/HappyRay/php-di-generator)
+
 # php-di-generator
 
 Generate PHP code to inject dependent classes via the constructor.
