@@ -51,7 +51,7 @@ class TestRenderer(unittest.TestCase):
         data = ['Foo', 'Bar']
         params = Renderer.gen_constructor_statement(data)
         expected = '''
-    function __construct(
+    public function __construct(
         Foo $foo,
         Bar $bar
     )

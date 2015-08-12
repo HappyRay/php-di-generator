@@ -42,7 +42,7 @@ class Renderer(object):
         params = cls._gen_constructor_all_params(class_name_list)
         assignments = cls._gen_constructor_all_assignments(class_name_list)
         resultFormat = '''
-    function __construct(
+    public function __construct(
 %s
     )
     {

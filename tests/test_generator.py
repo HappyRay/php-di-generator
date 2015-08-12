@@ -13,7 +13,7 @@ class TestGenerator(unittest.TestCase):
     /** @var Bar */
     private $bar;
 
-    function __construct(
+    public function __construct(
         Foo $foo,
         Bar $bar
     )
