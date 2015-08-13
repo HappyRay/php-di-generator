@@ -22,7 +22,7 @@ def main():
     """
     Parse arguments from command line
     """
-    print("Version 1.0")
+    print("Version 1.1")
 
     argv = sys.argv
     length = len(argv)
